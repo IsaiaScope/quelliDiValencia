@@ -1,0 +1,7 @@
+{
+  "name": "quelliDiValencia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
