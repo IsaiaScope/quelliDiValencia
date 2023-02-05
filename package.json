@@ -2,7 +2,7 @@
 	"name": "quelliDiValencia",
 	"version": "0.0.1",
 	"private": true,
-	"description": "An Ionic project",
+	"description": "An Ionic project for my friends",
 	"scripts": {
 		"start": "ionic serve --external",
 		"build": "ionic build",

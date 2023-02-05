@@ -1,13 +1,12 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 
-const Home: React.FC = () => {
+const Settings: React.FC = () => {
 	return (
 		<IonPage>
 			<IonHeader>
 				<IonToolbar>
-					<IonTitle>Blank Iso 19</IonTitle>
+					<IonTitle>Settings</IonTitle>
 				</IonToolbar>
 			</IonHeader>
 			<IonContent fullscreen>
@@ -16,10 +15,10 @@ const Home: React.FC = () => {
 						<IonTitle size='large'>Blank</IonTitle>
 					</IonToolbar>
 				</IonHeader>
-				<ExploreContainer />
+				settings page
 			</IonContent>
 		</IonPage>
 	);
 };
 
-export default Home;
+export default Settings;
