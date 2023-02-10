@@ -4,11 +4,11 @@ import { CONFIG } from '../../shared/costants/config';
 
 const { tts } = CONFIG.labels;
 
-const Wheel: React.FC = () => {
+const RandomPicker: React.FC = () => {
 	return (
 		<IonPage>
 			<Header title={tts} />
-			<IonContent className='ion-padding' fullscreen>
+			<IonContent className='ion-padding'>
 				<IonList>
 					<IonItem>
 						<IonLabel>Wheel</IonLabel>
@@ -19,4 +19,4 @@ const Wheel: React.FC = () => {
 	);
 };
 
-export default Wheel;
+export default RandomPicker;

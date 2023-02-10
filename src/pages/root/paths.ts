@@ -2,6 +2,6 @@ export const paths = {
 	home: 'home',
 	profile: 'profile',
 	settings: 'settings',
-	wheel: 'wheel',
+	rp: 'random-picker',
 	wip: 'work-in-progress',
 };

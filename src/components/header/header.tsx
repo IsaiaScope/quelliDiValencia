@@ -6,11 +6,11 @@ import {
 	IonToolbar,
 } from '@ionic/react';
 
-interface headerProp {
+interface headerProps {
 	title: string;
 }
 
-const Header: React.FC<headerProp> = ({ title }) => {
+const Header: React.FC<headerProps> = ({ title }) => {
 	return (
 		<IonHeader>
 			<IonToolbar>

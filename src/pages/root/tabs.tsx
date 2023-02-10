@@ -11,22 +11,28 @@ import { home as homeIcon, peopleCircleSharp as profileIcon } from 'ionicons/ico
 import Home from '../home/home';
 import Profile from '../profile/profie';
 import { paths } from './paths';
-import Wheel from '../wheel/wheel';
 import WorKInProgress from '../wip/wip';
+import RandomPicker from '../random-picker/random-picker';
+import Settings from '../settings/settings';
 
 const Tabs: React.FC = () => {
-	const { home, profile, wheel, wip } = paths;
+	const { home, profile, rp, wip, settings } = paths;
 	return (
 		<IonTabs>
 			<IonRouterOutlet>
 				<Route path={`/:tab(${home})`} component={Home} exact={true} />
-				<Route path={`/:tab(${home})/${wheel}`} component={Wheel} exact={true} />
+				<Route path={`/:tab(${home})/${rp}`} component={RandomPicker} exact={true} />
 				<Route
 					path={`/:tab(${home})/${wip}`}
 					component={WorKInProgress}
 					exact={true}
 				/>
 				<Route path={`/:tab(${profile})`} component={Profile} exact={true} />
+				<Route
+					path={`/:tab(${profile})/${settings}`}
+					component={Settings}
+					exact={true}
+				/>
 				<Route render={() => <Redirect to={`/${home}`} />} />
 			</IonRouterOutlet>
 			<IonTabBar slot='bottom'>

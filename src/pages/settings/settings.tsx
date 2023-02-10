@@ -1,21 +1,16 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './Home.css';
+import { IonContent, IonItem, IonLabel, IonList, IonPage } from '@ionic/react';
+import Header from '../../components/header/header';
 
 const Settings: React.FC = () => {
 	return (
 		<IonPage>
-			<IonHeader>
-				<IonToolbar>
-					<IonTitle>Settings</IonTitle>
-				</IonToolbar>
-			</IonHeader>
-			<IonContent fullscreen>
-				<IonHeader collapse='condense'>
-					<IonToolbar>
-						<IonTitle size='large'>Blank</IonTitle>
-					</IonToolbar>
-				</IonHeader>
-				settings page
+			<Header title='Settings' />
+			<IonContent className='ion-padding'>
+				<IonList>
+					<IonItem>
+						<IonLabel>SETTINGS</IonLabel>
+					</IonItem>
+				</IonList>
 			</IonContent>
 		</IonPage>
 	);
