@@ -2,7 +2,7 @@ import { IonContent, IonPage } from '@ionic/react';
 import Header from '../../components/header/header';
 import List from '../../components/list/list';
 import { noDash } from '../../helper/functions/string-manipulation';
-import { CONFIG } from '../../shared/costants/config';
+import { CONFIG } from '../../shared/constants/constants';
 import { paths } from '../root/paths';
 
 const Home: React.FC = () => {

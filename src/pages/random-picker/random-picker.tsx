@@ -12,7 +12,7 @@ import {
 	IonPage,
 } from '@ionic/react';
 import Header from '../../components/header/header';
-import { CONFIG } from '../../shared/costants/config';
+import { CONFIG } from '../../shared/constants/constants';
 import { RandomReveal } from 'react-random-reveal';
 import { useState } from 'react';
 import { balloonSharp as balloonIcon } from 'ionicons/icons';
