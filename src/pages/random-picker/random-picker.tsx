@@ -21,7 +21,7 @@ const { tts } = CONFIG.labels;
 
 const RandomPicker: React.FC = () => {
 	const [isPlaying, setIsPlaying] = useState(true);
-	const results = ['bacio', 'schiaffo'];
+	const results = ['bacio', 'schiaffo','abbraccio'];
 
 	const OnClickRandomBtn = () => setIsPlaying(!isPlaying);
 

@@ -26,7 +26,7 @@ const InstallPWA: React.FC = () => {
 	};
 	if (!supportsPWA) {
 		console.log('yuppu');
-		return null;
+		// return null;
 	}
 	return (
 		<button
